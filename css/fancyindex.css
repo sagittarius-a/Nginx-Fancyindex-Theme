@@ -49,26 +49,30 @@
 html, body {
   /* height: 100%; */
   font-size: 100%;
-  background-color: #f7f7f7;
+  background-color: #333;
+  /*background-color: #f7f7f7;*/
   font-family: "ProximaNova";
 }
 
 .box {
-  border: 1px solid #d9d6d6;
+  border: 1px solid #555;
+  /*border: 1px solid #d9d6d6;*/
   width: 100%;
 }
 
 .box .box-header {
   font-weight: 500;
   font-style: normal;
-  background: #f7f7f7;
+  background: #666;
+  /*background: #f7f7f7;*/
   background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f7f7f7));
   background: -webkit-linear-gradient(top,#fff,#f7f7f7);
   background: linear-gradient(top,#fff,#f7f7f7);
   text-transform: uppercase;
   height: 45px;
   font-size: 16px;
-  border-bottom: 1px solid #d9d6d6;
+  border-bottom: 1px solid #555;
+  /*border-bottom: 1px solid #d9d6d6;*/
 }
 
 .box .box-header .box-header-content {
@@ -95,10 +99,11 @@ html, body {
   position: relative;
   display: inline-block;
   padding: 8px 18px 8px 10px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 12px;
-  color: #a3a9ab;
-  text-shadow: 0 1px 0 #FFF;
+  color: #ddd;
+  /*color: #a3a9ab;*/
+  /*text-shadow: 0 1px 0 #FFF;*/
   -webkit-transition: 300ms color;
   transition: 300ms color;
 }
@@ -115,7 +120,8 @@ html, body {
 }
 
 .breadcrumbs a:hover {
-  color: #50b1ff;
+  color: #aaa;
+  /*color: #50b1ff;*/
   text-decoration: none;
   background: none;
 }
@@ -136,11 +142,13 @@ th {
   text-align:left;
   font-weight:500;
   background:#eee;
-  border-bottom: 1px solid #d9d6d6;
+  border-bottom: 1px solid #444;
+  /*border-bottom: 1px solid #d9d6d6;*/
 }
 
 th > a {
   color: #333;
+  /*color: #333;*/
 }
 
 h1 {
@@ -150,7 +158,8 @@ h1 {
 }
 
 #list {
-  border:1px solid #d9d6d6;
+  border:1px solid #444;
+  /*border:1px solid #d9d6d6;*/
   width:100%;
 }
 
@@ -159,12 +168,14 @@ td > a {
 }
 
 a {
-  color:#777;
+  color:#222;
+  /*color:#777;*/
   text-decoration: none;
 }
 
 a:hover {
-  color:#333;
+  color:#ddd;
+  /*color: #333;*/
 }
 
 @media screen and (max-width: 1024px) {
@@ -463,4 +474,16 @@ a:hover {
   #list a[href$=".wmv"]:before {
           background: url('../icons/video.png') left center no-repeat;
   }
+}
+
+tr:nth-child(2n) {
+    background: none repeat scroll 0% 0% #888;
+}
+
+tr {
+    background-color: #777;
+}
+
+th {
+    background-color: #666;
 }
